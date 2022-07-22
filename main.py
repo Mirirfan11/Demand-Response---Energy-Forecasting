@@ -1,8 +1,7 @@
 import pandas as pd
 
 """Load Data"""
-#path ='C:\\Users\\Aarif\\Downloads\\dat_building_PreProcessed_data.xlsx'
-path ='dat_building_PreProcessed_data.xlsx'
+path ='\dat_building_PreProcessed_data.xlsx'
 df2=pd.read_excel(path,header=1, usecols=[0,1,2,3,4,8,9,10,11,12,13],skiprows=2)
 df2.head(2)
 """Alternate way of loading data using Google Colab"""
